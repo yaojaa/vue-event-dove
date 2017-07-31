@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vue-data-validator",
+        "scope": null,
+        "escapedName": "vue-data-validator",
+        "name": "vue-data-validator",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/snail/Documents/myworks/eventdove"
+    ]
+  ],
+  "_cnpm_publish_time": 1479436331564,
+  "_from": "vue-data-validator@latest",
+  "_id": "vue-data-validator@1.2.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/vue-data-validator",
+  "_nodeVersion": "6.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/vue-data-validator-1.2.5.tgz_1479436329661_0.5861606488469988"
+  },
+  "_npmUser": {
+    "name": "phphe",
+    "email": "phphe@outlook.com"
+  },
+  "_npmVersion": "3.10.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-data-validator",
+    "scope": null,
+    "escapedName": "vue-data-validator",
+    "name": "vue-data-validator",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/vue-data-validator/download/vue-data-validator-1.2.5.tgz",
+  "_shasum": "f55088010cda0bc6cf88588b54a9d6960d69a07f",
+  "_shrinkwrap": null,
+  "_spec": "vue-data-validator",
+  "_where": "/Users/snail/Documents/myworks/eventdove",
+  "author": {
+    "name": "phphe"
+  },
+  "bugs": {
+    "url": "https://github.com/phphe/vue-data-validator/issues"
+  },
+  "dependencies": {},
+  "description": "A Vue validator base on data instead of html dom.",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2015-loose-rollup": "^7.0.0",
+    "rollup": "^0.36.3",
+    "rollup-plugin-babel": "^2.6.1"
+  },
+  "dist": {
+    "shasum": "f55088010cda0bc6cf88588b54a9d6960d69a07f",
+    "size": 14678,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/vue-data-validator/download/vue-data-validator-1.2.5.tgz"
+  },
+  "gitHead": "b83db366fd2a6ab65eb3086b84521d5f9a46d4f8",
+  "homepage": "https://github.com/phphe/vue-data-validator#readme",
+  "keywords": [
+    "Vue",
+    "Vue2",
+    "Vue2.0",
+    "Validator"
+  ],
+  "license": "MIT",
+  "main": "./dist/vue-data-validator.common.js",
+  "maintainers": [
+    {
+      "name": "phphe",
+      "email": "phphe@outlook.com"
+    }
+  ],
+  "name": "vue-data-validator",
+  "optionalDependencies": {},
+  "publish_time": 1479436331564,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phphe/vue-data-validator.git"
+  },
+  "scripts": {
+    "build": "node build/build.js"
+  },
+  "version": "1.2.5"
+}

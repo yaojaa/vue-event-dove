@@ -1,0 +1,178 @@
+{
+	"title": "报名表单",
+	"elments": [{
+		"attr": {},
+		"description": "",
+		"displayName": "姓名",
+		"fieldType": "text",
+		"isDeleted": false,
+		"isDisplayDescription": false,
+		"isRequired": true,
+		"itemId": "6276309661255864320",
+		"itemName": "name",
+		"itemValues": [],
+		"rules": {
+			"maxLength": 8,
+			"minLength": 2,
+			"required": true
+		},
+		"value": ""
+	}, {
+		"attr": {},
+		"description": "",
+		"displayName": "邮箱",
+		"fieldType": "text",
+		"isDeleted": false,
+		"isDisplayDescription": false,
+		"isRequired": true,
+		"isUnique": true,
+		"itemId": "6276309661264252928",
+		"itemName": "email",
+		"itemValues": [],
+		"rules": {
+			"isEmail": true,
+			"required": true
+		},
+		"value": ""
+	}, {
+		"attr": {
+			"haveTime": true
+		},
+		"description": "",
+		"displayName": "日期时间",
+		"fieldType": "date_picker",
+		"isDeleted": false,
+		"isDisplayDescription": false,
+		"itemId": "6276309916105969664",
+		"itemName": "j3fja8tulf7opv",
+		"itemValues": [],
+		"rules": {
+			"required": true
+		},
+		"value": ""
+	}, {
+		"itemName": "j3gok0vv2zvfhu",
+		"description": "",
+		"isDisplayDescription": false,
+		"displayName": "下拉",
+		"fieldType": "select",
+		"itemValues": [{
+			"option": "选项 1",
+			"value": "j3gofedw38b6oz",
+			"isOther": false,
+			"isDefault": false
+		}, {
+			"option": "选项 2",
+			"value": "j3gok33bf011lw",
+			"isOther": false
+		}, {
+			"option": "选项 3",
+			"value": "j3gok3iyetse8l",
+			"isOther": false
+		}],
+		"rules": {
+			"required": true
+		},
+		"attr": {},
+		"value": ""
+	}, {
+		"itemName": "j3gok7gx4kd56t",
+		"description": "",
+		"isDisplayDescription": false,
+		"displayName": "单选",
+		"itemValues": [{
+			"option": "选项 1",
+			"value": "j3gok9r13l02ox",
+			"isOther": false
+		}, {
+			"option": "选项 2",
+			"value": "j3gokaeqakwvcc",
+			"isOther": false
+		}, {
+			"option": "选项 3",
+			"value": "j3gokb285a7oc2",
+			"isOther": false
+		}],
+		"rules": {
+			"required": true
+		},
+		"attr": {},
+		"fieldType": "radio",
+		"value": ""
+	}, {
+		"attr": {
+			"custom": ".txt",
+			"fileLength": 4,
+			"fileRestriction": false,
+			"fileType": "other"
+		},
+		"description": "11",
+		"displayName": "附件",
+		"fieldType": "attachment",
+		"isDeleted": false,
+		"isDisplayDescription": true,
+		"itemId": "6276340697842978816",
+		"itemName": "j3fnnv4iessl17",
+		"itemValues": [],
+		"rules": {
+			"required": true
+		},
+		"value": ""
+	}, {
+		"attr": {},
+		"description": "",
+		"displayName": "多选",
+		"fieldType": "checkbox",
+		"isDeleted": false,
+		"isDisplayDescription": false,
+		"itemId": "6276313040061337600",
+		"itemName": "j3fjr0gk4why52",
+		"itemValues": [{
+			"isDefault": false,
+			"isOther": false,
+			"option": "选项 1",
+			"value": "j3fjqvv2n4kkba"
+		}, {
+			"isOther": false,
+			"option": "选项 2",
+			"value": "j3fjr34fy73cno"
+		}, {
+			"isOther": false,
+			"option": "选项 3",
+			"value": "j3fjr3stiunlwm"
+		}],
+		"rules": {
+			"required": true
+		},
+		"value": ""
+	}, {
+		"attr": {},
+		"description": "",
+		"displayName": "手机",
+		"fieldType": "text",
+		"isDeleted": false,
+		"isDisplayDescription": false,
+		"itemId": "6276326023860719616",
+		"itemName": "j3flkybaotx3mq",
+		"itemValues": [],
+		"rules": {
+			"isMobile": true,
+			"required": true
+		},
+		"value": ""
+	}, {
+		"attr": {},
+		"description": "",
+		"displayName": "城市",
+		"fieldType": "city",
+		"isDeleted": false,
+		"isDisplayDescription": false,
+		"itemId": "6276380124183138304",
+		"itemName": "j3ft9tspud0c7k",
+		"itemValues": [],
+		"rules": {
+			"required": 3
+		},
+		"value": ""
+	}]
+}

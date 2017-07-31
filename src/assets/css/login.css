@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/**
+ * 
+ * @title --
+ * @authors goodliang
+ * @date 2016-12-22 19:24:15
+ * 
+ */
+
+.user-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/user-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.login-wrap {
+    width: 880px;
+    /*min-height: 500px;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(137, 157, 197, 0.1);
+}
+
+.login-wrap.recover {
+    width: 450px;
+}
+
+.login-wrap .ui.form .field {
+    margin-bottom: 1.5em;
+}
+
+.login-wrap .ui.vertical.divider {
+    left: 56.25%!important;
+}
+
+.login-wrap .ui.secondary.menu {
+    margin-bottom: 1.8em;
+}
+
+.login-logo {
+    position: absolute;
+    width: 138px;
+    height: 44px;
+    top: -80px;
+    left: 50%;
+    margin-left: -69px;
+    background: url(../images/logo.png);
+    background-size: 100% 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.login-logo:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.user-bg .login-logo {
+    background: url(../images/logo-white.png);
+    background-size: 100% 100%;
+}
+
+// i.circular.icon.green {
+//     box-shadow: 0 0 0 0.1em #21BA45 inset
+// }
+// i.circular.icon.blue {
+//     box-shadow: 0 0 0 0.1em #09f inset
+// }
+// i.circular.icon.orange {
+//     box-shadow: 0 0 0 0.1em #ff8831 inset
+// }
+// i.circular.icon.teal {
+//     box-shadow: 0 0 0 0.1em #00cfb3 inset
+// }
+.login-icon-wrap i.circular.icon {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.login-icon-wrap i.circular.icon.blue:hover {
+    box-shadow: 0 0 0 0.1em #09f inset;
+}
+
+.login-icon-wrap i.circular.icon.orange:hover {
+    box-shadow: 0 0 0 0.1em #ff8831 inset
+}
+
+@media screen and (max-width: 768px) {
+    .user-bg {
+        border: 1px solid transparent;
+    }
+    .ui.divider.or {
+        display: none !important;
+    }
+    .login-logo {
+        top: -60px;
+    }
+    .login-wrap,
+    .login-wrap.recover {
+        width: auto;
+        margin: 90px 15px 15px;
+        padding: 0;
+        top:0;
+        left:0;
+        position: static;
+        transform: translate(0%, 0%);
+    }
+}

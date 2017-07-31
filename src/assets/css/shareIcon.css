@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 351895 */
+  src: url('//at.alicdn.com/t/font_bhytdpoe0t138fr.eot');
+  src: url('//at.alicdn.com/t/font_bhytdpoe0t138fr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_bhytdpoe0t138fr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_bhytdpoe0t138fr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_bhytdpoe0t138fr.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:20px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius:50%;
+  border:1px solid #ccc;
+  padding:10px;
+  cursor: pointer;
+}
+
+.icon_qq:before { content: "\e607"; color:#09f}
+.icon_qqkongjian:before { content: "\e63d"; color:#ff8831}
+.icon_weibo:before { content: "\e606"; color:#00cfb3}
+.icon_linkedin:before { content: "\e724"; color:#09f}
+.icon_facebook:before { content: "\e600"; color:#ff8831}
+.icon_twitter:before{content:"\e638";color:#00cfb3}
+.icon_more:before{content:"\e698";color:#00cfb3;font-size:16px}

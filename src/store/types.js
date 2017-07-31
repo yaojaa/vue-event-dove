@@ -1,0 +1,9 @@
+export const ADD_TO_CART = 'ADD_TO_CART'
+export const CHECKOUT_REQUEST = 'CHECKOUT_REQUEST'
+export const CHECKOUT_SUCCESS = 'CHECKOUT_SUCCESS'
+export const CHECKOUT_FAILURE = 'CHECKOUT_FAILURE'
+export const RECEIVE_PRODUCTS = 'RECEIVE_PRODUCTS'
+export const USER_REG = 'USER_REG' //注册成功
+export const USER_SIGNIN = 'USER_SIGNIN' //登录成功
+export const USER_SIGNOUT = 'USER_SIGNOUT' //退出登录
+export const USER_LIMITED = 'USER_LIMITED' //退出登录
